@@ -1,3 +1,8 @@
+=begin
+  This is a demo of Noun Phrase Extraction algorithm. Using part of speech tags
+  it'll extract the most likely noun phrases from a sentence.
+=end
+
 StanfordCoreNLP.jar_path = "./stanford-core-nlp/"
 StanfordCoreNLP.model_path = "./stanford-core-nlp/"
 
