@@ -9,9 +9,6 @@ StanfordCoreNLP.model_path = "./stanford-core-nlp/"
 PIPELINE = StanfordCoreNLP.load(:tokenize, :ssplit, :pos, :lemma, :parse, :ner, :dcoref)
 
 class BaseExtractor
-  def initialize
-  end
-
   def extract(token_tags)
     entities = []
     current_entity = []
