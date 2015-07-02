@@ -1,4 +1,7 @@
 =begin
+NOTE: Ruby is not the best language to experiment with NLP and Machine Learning. Mainly
+      because the tooling for it in Ruby is subpar.
+
   This is a demo of Noun Phrase Extraction algorithm. Using part of speech tags
   it'll extract the most likely noun phrases from a sentence.
 =end
